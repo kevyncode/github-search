@@ -136,8 +136,8 @@ const Input: React.FC = () => {
   return (
     <div className="flex flex-col items-center gap-6 w-full px-4">
       <div className="flex border bg-white rounded-lg w-full max-w-3xl justify-center items-center p-0.5 h-16">
-        <div className="w-12 flex items-center justify-center rounded-md">
-          <span className="text-blue-500 text-xl font-bold text-center">@</span>
+        <div className="ml-2 flex justify-center items-center w-7 h-full rounded-md ">
+          <span className="text-blue-500 text-xl font-bold">@</span>
         </div>
 
         <input
