@@ -16,7 +16,7 @@ const InfoProfile: React.FC<InfoProfileProps> = ({
 }) => {
   return (
     <div
-      className="flex items-start rounded-lg p-6 w-full"
+      className="flex items-start rounded-3xl p-6 w-full"
       style={{
         backgroundColor: "rgba(40, 44, 52, 0.85)", // Fundo Darcula semi-transparente
         backdropFilter: "blur(10px)", // Efeito de desfoque
